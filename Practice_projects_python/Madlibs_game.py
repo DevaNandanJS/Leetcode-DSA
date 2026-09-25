@@ -1,0 +1,10 @@
+adjective1= str(input("enter an adjective: "))
+noun1= str(input("enter a noun: "))
+verb1= str(input("enter a verb: "))
+adjective2= str(input("enter an adjective: "))
+adjective3= str(input("enter a adjective: "))
+
+print(f"today i wwnet to a {adjective1} zoo")
+print(f"In an exhibit, i saw a {noun1}")
+print(f"{noun1}was {adjective2} and {verb1}")
+print(f"I was {adjective3}")

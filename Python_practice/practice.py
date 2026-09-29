@@ -1,7 +1,19 @@
-import math
+name= input("enter your name").upper()
 
-x= int(input("enter your radius: "))
-circum= 2 * math.pi * x
-area= math.pi * pow(x, 2)
+result= len(name)
+result= name.find(" ")
+result= name.rfind("N")
+result= name.isdigit()
+result= name.isalpha()
+result= name.count("N")
 
-print(f"If radius is {x} then circumference is {circum} and area is {area}")
+
+result= name.replace()
+
+
+
+
+print(result)
+
+
+
